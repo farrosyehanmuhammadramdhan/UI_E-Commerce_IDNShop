@@ -17,7 +17,7 @@ class CategoriesWidget extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: [
-          for (int i = 1; i < myTitleCategory.length; i++)
+          for (int i = 0; i < myTitleCategory.length; i++)
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 10),
               padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 10),
@@ -26,7 +26,7 @@ class CategoriesWidget extends StatelessWidget {
               child: Row(
                 children: [
                   Image.asset(
-                    'images/$i.jpeg',
+                    'images/${i+1}.jpeg',
                     width: 40,
                     height: 40,
                   ),
