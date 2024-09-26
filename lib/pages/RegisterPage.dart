@@ -66,7 +66,7 @@ class RegisterPage extends StatelessWidget {
                   padding: const EdgeInsets.only(top: 3, left: 3),
                   child: ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, 'homePage');
+                      Navigator.pushNamed(context, "/");
                     },
                     style: ElevatedButton.styleFrom(
                         shape: const StadiumBorder(),
