@@ -21,7 +21,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(scaffoldBackgroundColor: Colors.white),
       routes: {
         "/": (context) => HomePage(),
-        "loginpage": (context) => LoginPage(),
+        "loginPage": (context) => LoginPage(),
         "registerPage": (context) => RegisterPage(),
         "cartPage": (context) => CartPage(),
         "chatPage": (context) => ChatPage(),
