@@ -96,7 +96,7 @@ class ProfilePage extends StatelessWidget {
                     icon: Icons.logout,
                     label: "LogOut",
                     onTap: () {
-                      // Action Log Out
+                      Navigator.pushNamed(context, 'loginPage');
                     },
                   ),
                 ],
